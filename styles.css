@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+.header {
+    height: 70px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+li>a {
+    text-decoration: none;
+    color: #b4b7bb;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    text-align: center;
+}
+
+.container1 {
+    background-color: #1f2937;
+    padding: 40px 80px;
+    display: flex;
+    height: 480px;
+}
+
+.container1-sub1 {
+    flex: 50%;
+    margin-top: 30px;
+    color: white;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.card {
+    display: inline-block;
+    align-items: center;
+    width: calc(25% - 10px);
+    /* Adjust width as needed, considering the gap */
+    box-sizing: border-box;
+}
+
+.card_img {
+    height: 210px;
+    width: 100%;
+    /* Ensure the image container takes full width of the card */
+}
+
+.card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    outline: 2px outset blue;
+    margin: 1px;
+}
+
+.card p {
+    text-align: center;
+    text-shadow: #1f2937;
+    padding: 3px;
+}
+
+.info_title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote div {
+    width: 50%;
+    font-style: italic;
+    font-size: 20px;
+    color: #1f2937;
+}
+
+.quote div:nth-child(2) {
+    margin-top: 4px;
+    text-align: right;
+    font-style: normal;
+}
+
+.action {
+    padding: 48px 0;
+}
+
+.action_bar {
+    background-color: #3882f6;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 2% 4%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+.action_text strong {
+    font-size: 18px;
+}
+
+.action_button {
+    display: flex;
+    align-items: center;
+}
+
+.action_button button {
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 0;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: #f9faf8;
+}
